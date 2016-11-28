@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Agular -->
+        <!--<script src="./node_modules/angular.js"></script>-->  
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.9/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="app">
+            <h1>tchat</h1>
+            <div ng-controller="MainController" class="view">
+                <div class="view">
+
+                </div>
+                <div class="form">
+                    <!--<input type="text" id="pseudo" placeholder="Votre pseudo..."/>-->
+                    <input type="text" id="message" placeholder="Votre message..." autofocus />
+                    <!--<input type="submit" id="envoi_message" value="Envoyer" />-->
+                    <p ng-click="envoi()">Envoyer</p>
+                </div>
+            </div>
+        </div>
+
+        <!--        <script src="https://code.jquery.com/jquery-2.2.4.js"></script>-->
+        <!--<script src="./js/.js"></script>-->
+        <!-- Modules -->
+        <script src="./js/main.js"></script>   
+        <!-- Controllers -->
+        <!--<script src="./js/controllers/MainController.js"></script>-->
+    </body>
+</html>
